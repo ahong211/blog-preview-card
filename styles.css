@@ -34,7 +34,6 @@ body {
     font-family: "Figtree", sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 150%;
     background-color: var(--yellow);
     color: var(--gray-950);
 
@@ -84,12 +83,14 @@ main {
         font-weight: 800;
         width: fit-content;
         padding: 4px 12px;
+        line-height: 150%;
         background-color: var(--yellow);
         border-radius: 4px;
     }
 
     .date {
         font-size: 12px;
+        line-height: 150%;
 
         @media (min-width: 600px) {
             font-size: 14px;
@@ -99,6 +100,7 @@ main {
     h1.title {
         font-size: 20px;
         font-weight: 800;
+        line-height: 150%;
         cursor: pointer;
 
         @media (min-width: 600px) {
@@ -112,7 +114,7 @@ main {
 
     .description {
         color: var(--gray-500);
-
+        line-height: 150%;
         @media (min-width: 600px) {
             font-size: 16px;
         }
@@ -131,5 +133,6 @@ main {
 
     p.name {
         font-weight: 800;
+        line-height: 150%;
     }
 }
